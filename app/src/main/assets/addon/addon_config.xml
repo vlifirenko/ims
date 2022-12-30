@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon name="@string/addon_name" icon="addon/icon.png" description="@string/description"
+    detail="@string/addon_detail" minSdkVersion="2.0">
+
+    <uses-permission name="addon.permission.SELECTION_TEXT" />
+    <uses-permission name="addon.permission.MEMORY" />
+    <uses-permission name="addon.permission.SCREENSHOT" />
+    <uses-permission name="addon.permission.FAVICON" />
+    <uses-permission name="addon.permission.BOOKMARKS" />
+    <uses-permission name="addon.permission.HISTORY" />
+    <uses-permission name="addon.permission.DOWNLOAD" />
+    <uses-permission name="addon.permission.NAVIGATION" />
+    <uses-permission name="addon.permission.FLOATVIEW" />
+    <uses-permission name="addon.permission.BANNER" />
+    <uses-permission name="addon.permission.TOAST" />
+    <uses-permission name="addon.permission.DIALOG" />
+    <uses-permission name="addon.permission.JS" />
+    <uses-permission name="addon.permission.COMMAND" />
+    <uses-permission name="addon.permission.SHARE" />
+    <uses-permission name="addon.permission.TAB" />
+    <uses-permission name="addon.permission.CAMERA" />
+    <uses-permission name="addon.permission.TRANSLATE" />
+    <uses-permission name="addon.permission.FILE" />
+    <uses-permission name="addon.permission.EVENT_RECEIVER" />
+    <uses-permission name="addon.permission.PAGE" />
+
+    <event-receiver name="com.ims.addons.PageFinishEventReceiver"
+        description="页面加载完成Receiver" icon="addon/icon.png">
+        <intent-filter>
+            <action name="addon.action.PAGE_EVENT" />
+            <category name="addon.category.PAGE_FINISH" />
+            <data scheme="http" host="*" />
+
+        </intent-filter>
+    </event-receiver>
+
+</addon>

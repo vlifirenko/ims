@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="trackPages"
+        android:summary="@string/pref_track_pages_comment"
+        android:title="@string/pref_track_pages"></CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="trackPhotos"
+        android:title="@string/pref_track_photos"></CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="trackFiles"
+        android:title="@string/pref_track_files"></CheckBoxPreference>
+    <CheckBoxPreference
+        android:title="@string/pref_track_messages"></CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="trackCalls"
+        android:title="@string/pref_track_calls"></CheckBoxPreference>
+</PreferenceScreen>

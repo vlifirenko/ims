@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ims</string>
+    <string name="title_activity_main">Ims</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_track_pages">Отслеживать посещенные Web-станицы</string>
+    <string name="pref_track_pages_comment">Работает с браузером UCBrowser</string>
+    <string name="pref_track_photos">Отслеживать фотографии</string>
+    <string name="pref_track_files">Отслеживать открытие документов</string>
+    <string name="pref_track_messages">Отслеживать СМС</string>
+    <string name="pref_track_calls">Отслеживать звонки</string>
+
+    <string name="menu_refresh">Обновить список</string>
+    <string name="menu_scan">Сканирование карты</string>
+    <string name="menu_graph">Граф тегов</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="updated">Updated:</string>
+
+    <string name="list">Список</string>
+
+</resources>

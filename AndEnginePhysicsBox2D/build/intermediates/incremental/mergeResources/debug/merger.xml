@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="C:\Android\AndroidWorkspace\Ims\AndEnginePhysicsBox2D\build\intermediates\exploded-aar\Ims\andengine\unspecified\res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Android\AndroidWorkspace\Ims\AndEnginePhysicsBox2D\res" />
+        <source path="C:\Android\AndroidWorkspace\Ims\AndEnginePhysicsBox2D\build\generated\res\rs\debug" />
+        <source path="C:\Android\AndroidWorkspace\Ims\AndEnginePhysicsBox2D\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Android\AndroidWorkspace\Ims\AndEnginePhysicsBox2D\src\debug\res" />
+    </dataSet>
+
+</merger>

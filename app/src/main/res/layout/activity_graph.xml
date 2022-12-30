@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <org.andengine.opengl.view.RenderSurfaceView
+        android:id="@+id/xmllayoutexample_rendersurfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="70dp"
+        android:visibility="gone"
+        android:background="#fff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list"
+        android:id="@+id/btn_list"
+        android:layout_gravity="left|top"
+        android:layout_margin="10dp" />
+
+</FrameLayout>
